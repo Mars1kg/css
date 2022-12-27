@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background: rgb(227, 220, 220);
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a: active {
+  color: blue;
+}
+a:visited {
+  color: gray;
+}
+
+.naruto {
+  width: 300px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0, 25);
+}
+.sasuke p {
+  color: rgb(22, 27, 27);
+  margin: 50px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+.sakura {
+  margin: 15px 50px;
+}
+.kakashi {
+  margin: 15px 50px;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+@media (max-width: 700px) {
+  
+}
+.madara p {
+  background: black;
+  color: white;
+  padding: 20px;
+  border: 5px solid gray;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+.zoro {
+  width: 100%;
+}
